@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9568d7-3cc8-4985-aeae-b87b148b3523" name="Changes" comment="laborator4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/cars.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
+    <list default="true" id="1b9568d7-3cc8-4985-aeae-b87b148b3523" name="Changes" comment="laborator5">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="com.intellij.jpb.JpaEntity" />
       </list>
     </option>
   </component>
@@ -47,6 +44,9 @@
     &quot;accountId&quot;: &quot;f36cfb0f-091d-416f-ad77-347eddf1e830&quot;
   }
 }</component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -71,7 +71,8 @@
     "GlassFish Server.GlassFish 7.0.9.executor": "Run",
     "Gradle.Build ParkingLot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "laborator5",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
@@ -84,7 +85,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -195,6 +196,7 @@
       <workItem from="1730452728112" duration="2806000" />
       <workItem from="1730917269804" duration="6343000" />
       <workItem from="1731607126281" duration="770000" />
+      <workItem from="1731651784342" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="laborator4">
       <option name="closed" value="true" />
@@ -204,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730917834948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="laborator5">
+      <option name="closed" value="true" />
+      <created>1731651068590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731651068590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +222,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laborator4" />
-    <option name="LAST_COMMIT_MESSAGE" value="laborator4" />
+    <MESSAGE value="laborator5" />
+    <option name="LAST_COMMIT_MESSAGE" value="laborator5" />
   </component>
 </project>
