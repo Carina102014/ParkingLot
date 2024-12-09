@@ -9,28 +9,24 @@ import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-
 @Stateless
 public class UsersBean {
-    private static final Logger LOG = Logger.getLogger(CarsBean.class.getName());
+    private static final Logger LOG = Logger.getLogger(UsersBean.class.getName());
     @PersistenceContext
     EntityManager entityManager;
-
-
     private List<UserDto> copyUsersToDto(List<User> users) {
-        List<UserDto> dtos = new ArrayList<>();
-        for (User user : users) {
-            UserDto userDto = new UserDto(
-                    user.getEmail(),
-                    user.getUsername(),
-                    user.getPassword(),
-                    user.getId()
 
-            );
+        List<UserDto> dtos = new ArrayList<>();
+        for (User user   : users) {
+            UserDto userDto=new UserDto( user.getUsername(),
+                    user.getEmail(),
+                    user.getPassword(),
+                    user.getId());
             dtos.add(userDto);
         }
         return dtos;

@@ -22,10 +22,10 @@ public class CarDto {
         return ownerName;
     }
 
-    public CarDto(Long id, String licensePlate, String ownerName, String parkingSpot) {
+    public CarDto(Long id, String licensePlate, String parkingSpot, String ownerName) {
         this.id = id;
         this.licensePlate = licensePlate;
-        this.ownerName = ownerName;
         this.parkingSpot = parkingSpot;
+        this.ownerName = ownerName;
     }
 }

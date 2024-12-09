@@ -13,9 +13,8 @@ users.jsp                                                                       
     <h1>Users</h1>
 
 
-    <c:forEach var="user" items="${user}">
+    <c:forEach var="user" items="${users}">
         <div class="row">
-            <div class="col">${user.email}</div>
             <div class="col">${user.username}</div>
         </div>
     </c:forEach>

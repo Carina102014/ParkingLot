@@ -1,8 +1,6 @@
 package com.parking.parkinglot.common;
 
 public class UserDto {
-
-
     private String email;
     private String password;
     private String username;
@@ -31,5 +29,6 @@ public class UserDto {
     public Long getId() {
         return id;
     }
+
 
 }
